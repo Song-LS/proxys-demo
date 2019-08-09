@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81cdb5d8-0b3d-4c7b-893d-895cb2eb5737" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ProxyRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ProxyRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceInterfacesScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceInterfacesScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceProxyFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceProxyFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ProxyRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ProxyRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ServiceInterfacesScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ServiceInterfacesScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ServiceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ServiceProxyFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/sls/common/core/ServiceProxyFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/sls/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/sls/demo/DemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/sls/demo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/sls/demo/service/UserService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceInterfacesScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="60" column="81" lean-forward="true" selection-start-line="60" selection-start-column="81" selection-end-line="60" selection-end-column="81" />
+            <state relative-caret-position="440">
+              <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1720#1721#0" expanded="true" />
@@ -79,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceProxyFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="638">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
@@ -424,15 +414,24 @@
       <workItem from="1565052150829" duration="2152000" />
       <workItem from="1565056736083" duration="3265000" />
       <workItem from="1565251275721" duration="4388000" />
-      <workItem from="1565311490963" duration="7405000" />
+      <workItem from="1565311490963" duration="7668000" />
     </task>
+    <task id="LOCAL-00001" summary="注释">
+      <created>1565328706130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565328706130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28639000" />
+    <option name="totallyTimeSpent" value="28902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -472,6 +471,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://E:/apache-maven-3.6.0-bin/apache-maven-3.6.0/respository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/core/type/ClassMetadata.class" />
@@ -598,7 +601,7 @@
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceProxyFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
@@ -670,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/sls/common/core/ServiceInterfacesScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="60" column="81" lean-forward="true" selection-start-line="60" selection-start-column="81" selection-end-line="60" selection-end-column="81" />
+        <state relative-caret-position="440">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1720#1721#0" expanded="true" />
