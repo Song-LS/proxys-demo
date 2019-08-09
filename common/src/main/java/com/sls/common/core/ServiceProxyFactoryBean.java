@@ -6,6 +6,7 @@ import java.lang.reflect.Proxy;
 
 /**
  * @author sls
+ * 通过FactoryBean实现接口代理
  **/
 public class ServiceProxyFactoryBean<T> implements FactoryBean<T> {
 
@@ -15,6 +16,11 @@ public class ServiceProxyFactoryBean<T> implements FactoryBean<T> {
         this.interfaces = interfaces;
     }
 
+    /**
+     * 得到代理对象
+     * @return
+     * @throws Exception
+     */
     @Override
     @SuppressWarnings("unchecked")
     public T getObject() throws Exception {

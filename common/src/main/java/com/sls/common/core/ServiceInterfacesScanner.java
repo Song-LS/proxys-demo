@@ -12,6 +12,8 @@ import java.util.Set;
 
 /**
  * @author sls
+ *  扫描指定的路径，接口定义
+ * ClassPathBeanDefinitionScanner 实现自定义的bean
  **/
 public class ServiceInterfacesScanner extends ClassPathBeanDefinitionScanner {
 
@@ -58,6 +60,7 @@ public class ServiceInterfacesScanner extends ClassPathBeanDefinitionScanner {
     private void createBeanDefinition(Set<BeanDefinitionHolder> beanDefinitionHolders) {
         for (BeanDefinitionHolder beanDefinitionHolder : beanDefinitionHolders) {
             GenericBeanDefinition beanDefinition = ((GenericBeanDefinition) beanDefinitionHolder.getBeanDefinition());
+            // BeanFactory.getBean的方法跟进去后有一个判断是不是FactroyBean类型的。如果是从FactroyBean.getObejct获取
             //将bean的真实类型改变为FactoryBean
             beanDefinition.getConstructorArgumentValues().addGenericArgumentValue(beanDefinition.getBeanClassName());
             beanDefinition.setBeanClass(ServiceProxyFactoryBean.class);
